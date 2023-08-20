@@ -3,7 +3,7 @@ import './Contact.css';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faPhone, faPaperPlane } from '@fortawesome/free-solid-svg-icons';
 import { faGithub, faLinkedin, faSpotify } from '@fortawesome/free-brands-svg-icons';
-import { Card, Button, Row, Container, Col, Accordion } from 'react-bootstrap';
+import { Accordion } from 'react-bootstrap';
 
 const contactLinks = [
     {
