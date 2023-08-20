@@ -1,0 +1,11 @@
+.App {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  height: 75vh;
+}
+
+.Profile, .about, .work, .resume, .contact-container {
+  flex: 1;
+  /* overflow: auto; */
+}

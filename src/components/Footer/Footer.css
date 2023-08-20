@@ -1,0 +1,31 @@
+.footer-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+.ftul {
+    font-size: larger;
+    margin: 0% 0%;
+    color: var(--teal);
+    display: flex;
+    background-color: var(--charcoal);
+    align-items: center;
+    font-weight: bolder;
+    list-style: none;
+    justify-content: space-evenly;
+    border: 2px solid var(--salmon);
+}
+
+footer li a {
+    color: var(--teal);
+    list-style: none;
+    /* margin-right: 2%; */
+}
+

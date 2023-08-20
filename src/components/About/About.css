@@ -1,0 +1,35 @@
+/* .about {
+    padding-top: 12%;
+} */
+
+.header-about {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+    width: fit-content;
+    font-size: 20px;
+    border: 2px solid black;
+}
+
+.body-about {
+    font-size: 11px;
+    width: 100%;
+}
+
+@media (min-width: 768px) {
+    .header-about {
+        font-size: 70px;
+    }
+    .body-about {
+    }
+}
+
+@media (min-width: 992px) {
+    .header-about {
+        font-size: 100px;
+    }
+    .body-about {
+    }
+}
