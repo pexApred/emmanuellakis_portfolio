@@ -1,9 +1,6 @@
-/* .about {
-    padding-top: 12%;
-} */
-
-.header-about {
+.header-about {        
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
     margin-left: auto;
@@ -14,8 +11,14 @@
 }
 
 .body-about {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    text-align: left;
+    margin-left: auto;
+    margin-right: auto;
     font-size: 11px;
-    width: 100%;
 }
 
 @media (min-width: 768px) {
@@ -32,6 +35,7 @@
         font-size: 100px;
     }
     .body-about {
-        font-size: 16px;
+        font-size: 16px;    
+        width: 50vw;
     }
 }
