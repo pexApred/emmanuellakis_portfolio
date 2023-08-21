@@ -1,15 +1,11 @@
 .nav {
     position: static;
     top: 0;
-    padding-bottom: 2.5rem;
     left: 0;
     width: 100%;
     justify-content: space-evenly;
-    /* margin: 0% 0% 0% 0%; */
     align-items: center;
-    /* background-color: goldenrod; */
-    /* border: 1rem solid black; */
-    /* box-shadow: 0px 0px 10px 5px var(--salmon) inset; */
+
 }
 
 .nav-group {
@@ -23,14 +19,14 @@
 
 .nav-link {
     text-decoration: none;
-    color: var(--teal);
+    color: black;
     font-size: x-large;
 }
 
 .nav-link:hover {
-    color: var(--charcoal);
+    color: white;
     text-decoration: underline;
-    background-color: goldenrod;
+    background-color: black;
     /* padding: 2%; */
     border: 2 px solid black;
 }

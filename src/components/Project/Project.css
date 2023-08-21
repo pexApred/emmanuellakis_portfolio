@@ -15,7 +15,7 @@
 }
 
 .work-body {
-    font-size: 9px;
+    font-size: 11px;
     width: 100%;
     /* background-color: white; */
     /* color: goldenrod; */
@@ -89,7 +89,13 @@
         font-size: 70px;
     }
 
-    .work-body {}
+    .title {
+        font-size: 20px;
+    }
+
+    .work-body {
+        font-size: 14px;
+    }
 }
 
 @media (min-width: 992px) {

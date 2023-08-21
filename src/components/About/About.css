@@ -9,7 +9,7 @@
     margin-left: auto;
     margin-right: auto;
     width: fit-content;
-    font-size: 20px;
+    font-size: 24px;
     border: 2px solid black;
 }
 
@@ -23,6 +23,7 @@
         font-size: 70px;
     }
     .body-about {
+        font-size: 14px;
     }
 }
 
@@ -31,5 +32,6 @@
         font-size: 100px;
     }
     .body-about {
+        font-size: 16px;
     }
 }

@@ -18,8 +18,7 @@ function Project() {
                                         <Card.Img
                                             src="../Screenshot 2023-05-09 at 9.04.11 PM.png"
                                             className="card-Image-top"
-                                            alt="Literacy Lane Website link"
-                                         />
+                                            alt="Literacy Lane Website link"/>
                                     </a>
                                     <Card.Body className="card-body">
                                         <Card.Title className='title'>Literacy Lane: Interactive Front-End</Card.Title>

@@ -7,7 +7,7 @@ import { Card, Button, Row, Container, Col, Accordion } from 'react-bootstrap';
 function About() {
     return (
         <>
-            <Accordion defaultkey="0" className="about" flush>
+            <Accordion defaultkey="0" className="about" id='about' flush>
                 <Accordion.Item eventKey="0">
                     <Accordion.Header className="header-about text-center">About Me</Accordion.Header>
                     <Accordion.Body className="body-about">

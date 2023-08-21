@@ -7,11 +7,11 @@ import { Card, Button, Row, Container, Col, Accordion } from 'react-bootstrap';
 function About() {
     return (
         <>
-            <Accordion defaultkey="0" className="resume" flush>
+            <Accordion defaultkey="0" className="resume" id='resume' flush>
                 <Accordion.Item eventKey="0">
                     <Accordion.Header className="header-resume text-center">Resume</Accordion.Header>
                     <Accordion.Body className="body-resume">Click to view:{' '}
-                        <a className="view" href="https://drive.google.com/file/d/1GeWC4Iuci2hD2w3w-BTioPpq_i12fMa_/view?usp=drive_link" target="_blank" rel="noreferrer">
+                        <a className="view" href="https://drive.google.com/file/d/1KI3eR8G6LgV_Hbwr-9bhTLqNpvXxDdDG/view?usp=drive_link" target="_blank" rel="noreferrer">
                             
                             <FontAwesomeIcon className='faFile' icon={faFile} />
                         </a>

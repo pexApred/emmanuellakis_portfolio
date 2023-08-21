@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useRef } from "react";
 import './Contact.css';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faPhone, faPaperPlane } from '@fortawesome/free-solid-svg-icons';
@@ -29,12 +29,24 @@ const contactLinks = [
 ];
 
 function Contact() {
+
+    const accordionRef = useRef(null);
+
+    const handleAccordionClick = () => {
+        if (accordionRef.current) {
+            accordionRef.current.scrollIntoView({ 
+                behavior: 'smooth',
+                block: 'start'
+            });
+        }
+    };
+
     return (
         <>
-            <Accordion defaultkey="0" className="contact-container" flush>
-                <Accordion.Item eventKey="0" className="">
-                    <Accordion.Header className="header-contact text-center">Contact Me</Accordion.Header>
-                    <Accordion.Body className="body-contact">
+            <Accordion defaultkey="0" className="contact-container" id='contact-id' flush>
+                <Accordion.Item eventKey="0" className="" ref={accordionRef}>
+                    <Accordion.Header className="header-contact text-center" onClick={handleAccordionClick}>Contact Me</Accordion.Header>
+                    <Accordion.Body className="body-contact" >
                         {contactLinks.map((link, index) => (
                             <li key={index}>
                                 <a href={link.link} className="links">
