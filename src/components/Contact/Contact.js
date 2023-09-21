@@ -22,7 +22,7 @@ const contactLinks = [
         icon: faPhone,
     },
     {
-        title: 'Email',
+        title: 'manolilakis@gmail.com',
         link: 'mailto:manolilakis@gmail.com',
         icon: faPaperPlane,
     }
