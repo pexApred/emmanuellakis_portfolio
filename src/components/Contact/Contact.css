@@ -40,8 +40,8 @@
         /* color: goldenrod; */
         list-style: none;
     }
-}
-    /* .body-contact > * + * {
+
+    .body-contact > * + * {
         margin-left: 1em;
     }
-} */
+}
