@@ -6,7 +6,7 @@ import { faHouse, faPersonWalking, faFile, faIdCard, faAt, faPhone } from '@fort
 import { faFolderOpen } from '@fortawesome/free-regular-svg-icons';
 
 
-function Navigation() {
+function NavBar() {
     return (
         <>
             <nav className='nav-container'>
@@ -54,4 +54,4 @@ function Navigation() {
     );
 }
 
-export default Navigation;
+export default NavBar;

@@ -1,126 +1,100 @@
-.work {
-    position: relative;
-    padding-top: 1%;
-}
-
-.work-header {
+.carousel-container {
     display: flex;
-    justify-content: center;
+    flex-direction: row;
+    justify-content: flex-start;
     align-items: center;
-    margin-left: auto;
-    margin-right: auto;
-    width: fit-content;
-    font-size: 40px;
-    border: 2px solid black;
+    height: 100%;
+    background-color: white;
+    padding: 10px;
+    margin: 0;
 }
 
-.work-body {
-    font-size: 11px;
-    width: 100%;
-    /* background-color: white; */
-    /* color: goldenrod; */
-    /* margin: 1rem; */
-}
-
-.col {
+.section-tab {
+    padding: 20px;
+    border: 2px solid #000;
+    border-right: none;
+    height: 100%;
     display: flex;
-    flex-direction: column;
-    justify-content: center;
     align-items: center;
-    /* width: 100%; */
 }
 
-.card {
-    flex: 1;
-    width: 75%;
-    height: auto;
-    border: 2px solid black;
+.section-tab:hover {
+    background-color: #f0f0f0;
+    transition: background-color 0.3s ease-in-out;
 }
 
-.card:hover {
-    transform: scale(1.01);
-    height: auto;
-    border: 2px solid goldenrod;
-    background-color: black;
-    color: white;
+.connecting-line {
+    width: 10%;
+    height: 4px;
+    background-color: #000;
+    /* margin-right: 20px; */
+    transform: translateY(100%);
+}
+
+.carousel {
+    max-width: 700px;
+    max-height: 500px;
+    margin: auto;
+}
+
+.carousel-content {
+    padding: 10%;
+    background-color: rgba(0,0,0,0.5);
+    border-radius: 10px;
 }
 
 .card-Image-top {
-    width: 75%;
-    margin-top: 1rem;
-    align-self: center;
+    max-width: 100%;    
     height: auto;
-    border: 2px solid black;
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px 2px black;
 }
 
-/* .card-Image-top:hover {
-    border: 2px solid goldenrod;
-    width: 76%;
-    height: auto;
-} */
-
-.title {
+.carousel-caption {
+    margin: 150px;
     font-size: 12px;
+    position: absolute;
+    text-align: center;
+    bottom: 20px;
+    left: 20px;
+    right: 20px;
+    color: black;
+    /* background-color: white; */
+}
+
+.carousel-caption .title {
+    font-size: 16px;
     font-weight: bold;
-    text-decoration: underline;
+    /* text-decoration: underline; */
+    color: black;
 }
 
-.btn {
-    width: 25%;
-    height: auto;
-    border: 2px solid black;
+.carousel-caption p {
+    max-width: 800px;
+    margin: auto;
+    line-height: 1.5;
 }
 
-.btn:hover {
-    border: 2px solid goldenrod;
-}
 
-.faIcon {
-    width: 50%;
-    /* height: auto; */
-}
 
-.faIcon:hover {
-    color: goldenrod;
-}
+
 
 @media (min-width: 768px) {
-    .work-header {
-        font-size: 70px;
+    .carousel {
+        max-width: 800px;
+        max-height: 600px;
     }
-
     .title {
-        font-size: 20px;
-    }
-
-    .work-body {
-        font-size: 14px;
+        font-size: 2em;
     }
 }
 
 @media (min-width: 992px) {
-    .card {
-        width: 100%;
-        height: auto;
+    .carousel {
+        max-width: 900px;
+        max-height: 700px;
     }
-
-    .card:hover {
-        transform: scale(1.01);
-        height: auto;
-        border: 2px solid goldenrod;
-        background-color: black;
-        color: white;
-    }
-
-    .work-header {
-        font-size: 100px;
-    }
-
     .title {
-        font-size: 24px;
-    }
-
-    .work-body {
-        font-size: 16px;
+        font-size: 2.5em;
     }
 }

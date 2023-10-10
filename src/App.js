@@ -1,34 +1,29 @@
-import './App.css';
-import Footer from './components/Footer/Footer.js';
-import 'devicon'
-import Header from './components/Header/Header.js';
-import Navigation from './components/NavBar/NavBar';
-import Project from './components/Project/Project.js';
-import About from './components/About/About.js';
+import React, { useState } from 'react';
+import NavBar from './components/NavBar/NavBar';
 import Profile from './components/Profile/Profile.js';
-import Resume from './components/Resume/Resume.js';
-import Contact from './components/Contact/Contact';
+import MainPage from './pages/MainPage/MainPage.js';
+import './App.css';
 
 function App() {
+  const [darkMode, setDarkMode] = useState(false);
+
+  function toggleDarkMode() {
+    setDarkMode(!darkMode);
+  }
+
   return (
     <>
-      <div className="App-container">
+      <div className={`App-container ${darkMode ? 'dark-side' : ' '}`}>
         <div className="App">
-          <Profile />          
-          <Navigation/>
-          {/* <About />
-          <Project />
-          <Resume />
-          <Contact /> */}
-          {/* <Footer/> */}
-          {/* <Header/> */}
+          <Profile />
+          <NavBar />
         </div>
-        <div className="App1-container">
+        <div className={`App1-container ${darkMode ? 'dark' : ''}`}>
           <div className="App1">
-            {/* <About />
-            <Project />
-            <Resume />
-            <Contact /> */}
+          {/* <button onClick={toggleDarkMode}>
+                Toggle Dark Mode
+            </button> */}
+            <MainPage />
           </div>
         </div>
       </div>

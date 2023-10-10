@@ -20,9 +20,19 @@
   /* border-radius: 1em ; */
   /* box-shadow: 2em 2em 2em 2em rgba(0, 0, 0, 0.5); */
   padding: 1em;
-  background-color: gray;
+  background-color: white;
 }
 
 /* .Profile, .about, .work, .resume, .contact-container {
   flex: 1;
 } */
+
+.dark {
+  background-color: #333;
+  /* color: white; */
+}
+
+.dark-side {
+  background-color: white;
+  
+}
