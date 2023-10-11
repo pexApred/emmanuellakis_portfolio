@@ -1,6 +1,4 @@
 import React, { useState } from "react";
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faShirt, faBook, faRoute } from '@fortawesome/free-solid-svg-icons';
 import { Modal, Carousel } from 'react-bootstrap';
 import './Project.css';
 
@@ -41,7 +39,7 @@ import './Project.css';
 
     function CarouselItem({ project, handleShow }) {
         return (
-            <Carousel.Item>
+            <Carousel.Item >
                 <div className="carousel-content">
                     <a href={project.link} aria-label="View project details">
                         <img src={project.image} className="card-Image-top" alt={`${project.title} Website link`} />
@@ -72,7 +70,7 @@ import './Project.css';
         }
     
         return (
-            <div className="carousel-container">
+            <div id='projects' className="carousel-container">
                 <h1 className="section-tab">Projects</h1>
                 <h1 className="connecting-line"></h1>
     

@@ -24,19 +24,19 @@ function NavBar() {
                         </a>
                     </li>
                     <li>
-                        <a href='#'>
+                        <a href='#projects'>
                             <FontAwesomeIcon className='icons' icon={faFolderOpen} />
                             Projects
                         </a>
                     </li>
                     <li>
-                        <a href='#'>
+                        <a href='#resume'>
                             <FontAwesomeIcon className='icons' icon={faFile} />
                             Resume
                         </a>
                     </li>
                     <li>
-                        <a href='#'>
+                        <a href='#contact'>
                             <FontAwesomeIcon className='icons' icon={faIdCard} />
                             Contact
                         </a>

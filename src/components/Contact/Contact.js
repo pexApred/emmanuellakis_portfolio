@@ -42,7 +42,7 @@ function Contact() {
     };
 
     return (
-        <>
+        <div id='contact'>
             <Accordion defaultkey="0" className="contact-container" id='contact-id' flush>
                 <Accordion.Item eventKey="0" className="" ref={accordionRef}>
                     <Accordion.Header className="header-contact text-center" onClick={handleAccordionClick}>Contact Me</Accordion.Header>
@@ -57,7 +57,7 @@ function Contact() {
                     </Accordion.Body>
                 </Accordion.Item>
             </Accordion>
-        </>
+        </div>
     );
 }
 

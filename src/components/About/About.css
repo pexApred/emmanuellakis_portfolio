@@ -1,41 +1,65 @@
-.header-about {        
+.hero-container {
+    background-image: url('/public/colorful-gradient-digital-art-abstract-tn-3840x2400.jpg');    
+    background-size: cover;
+    background-position: center;
+    margin: 0;
+    height: 100vh;
+}
+
+.hero-section {
+    display: flex;
+    flex-direction: column;
+    color: white;
+    font-size: 24px;
+}
+
+.hero-section h1 {
+    font-size: 80px;
+    margin-left: 33%;
+    margin-top: 20%;
+}
+
+.typed-container {
+    font-size: 40px;
+    text-align: left;
+    display: block;    
+    margin-left: 34%;
+}
+
+.typed, .typedSkills {
+    width: 200px;
+    transition: all 0.3s ease-in-out;    
+    text-decoration: underline;    
+    color: white;
+}
+
+.bio {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin-left: auto;
-    margin-right: auto;
-    width: fit-content;
-    font-size: 24px;
-    border: 2px solid black;
+    text-align: left;
+    margin-top: 20px;
+    color: white;
 }
 
-.body-about {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: flex-start;
-    text-align: left;
-    margin-left: auto;
-    margin-right: auto;
-    font-size: 11px;
+.bio-item {
+    width: 80%;
+    margin-bottom: 20px;
+}
+
+.bio-item h2 {
+    margin-bottom: 10px;
 }
 
 @media (min-width: 768px) {
-    .header-about {
-        font-size: 70px;
-    }
-    .body-about {
-        font-size: 14px;
+    .bio-item {
+        width: 60%;
     }
 }
 
 @media (min-width: 992px) {
-    .header-about {
-        font-size: 100px;
-    }
-    .body-about {
-        font-size: 16px;    
-        width: 50vw;
+    .bio-item {
+        width: 50%;
     }
 }
