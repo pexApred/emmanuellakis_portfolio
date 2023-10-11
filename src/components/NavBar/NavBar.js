@@ -12,7 +12,7 @@ function NavBar() {
             <nav className='nav-container'>
                 <ul className='section-links'>
                     <li>
-                        <a href='#page-top'>
+                        <a href='#'>
                             <FontAwesomeIcon className='icons' icon={faHouse} />
                             Home
                         </a>

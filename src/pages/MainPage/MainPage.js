@@ -1,5 +1,6 @@
 import React from 'react';
 import 'devicon';
+import Intro from '../../components/Intro/Intro.js';
 import About from '../../components/About/About.js';
 import Project from '../../components/Project/Project.js';
 import Resume from '../../components/Resume/Resume.js';
@@ -10,7 +11,7 @@ function MainPage() {
 
     return (
         <>
-            {/* <About/> */}
+            <Intro/>
             <About/>
             <Project/>
             <Resume/>

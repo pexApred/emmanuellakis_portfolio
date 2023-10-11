@@ -2,20 +2,35 @@
     top: 0;
     left: 0;
     bottom: 0;
-    width: 300px;
+    width: 225px;
 }
 
 .profile-pic {
     border-radius: 50%;
-    border: 2px solid white;
+    border: 5px solid rgb(101, 101, 101);
     margin-top: 1em;
     margin-bottom: 1em;
     align-self: center;
+    zoom: 1.25;
 }
 
 .user-name {
     width: 100%;
     text-align: center;
     color: white;
-    font-size: 30px;
+    font-size: 25px;    
+    font-weight: bold;
+}
+
+@media (min-width: 768px) {
+
+}
+
+@media (min-width: 992px) {
+    .profile-container {
+        top: 0;
+        left: 0;
+        bottom: 0;
+        width: 225px;
+    }
 }
