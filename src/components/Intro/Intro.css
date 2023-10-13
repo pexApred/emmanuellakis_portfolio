@@ -70,7 +70,6 @@
     }
 }
 
-/* Desktop and up */
 @media (min-width: 992px) {
     .hero-section h1 {
         font-size: 80px;

@@ -1,10 +1,8 @@
 import React from 'react';
-// import { Navbar, Nav, Container } from 'react-bootstrap';
 import './NavBar.css';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faHouse, faPersonWalking, faFile, faIdCard, faAt, faPhone } from '@fortawesome/free-solid-svg-icons';
+import { faHouse, faPersonWalking, faFile, faIdCard, faPaperPlane, faPhone } from '@fortawesome/free-solid-svg-icons';
 import { faFolderOpen } from '@fortawesome/free-regular-svg-icons';
-
 
 function NavBar() {
     return (
@@ -43,7 +41,7 @@ function NavBar() {
                     </li>
                     <br />
                     <li>
-                        <a href='mailto:manolilakis@gmail.com?subject=&body=How can I help you?'><FontAwesomeIcon className='icons' icon={faAt} />manolilakis@gmail.com</a>
+                        <a href='mailto:manolilakis@gmail.com?subject=&body=How can I help you?'><FontAwesomeIcon className='icons' icon={faPaperPlane} />manolilakis@gmail.com</a>
                     </li>
                     <li>
                         <a href='tel:+9197149693'><FontAwesomeIcon className='icons' icon={faPhone} />919.714.9693</a>

@@ -17,7 +17,7 @@ const contactLinks = [
         icon: faLinkedin,
     },
     {
-        title: 'Phone',
+        title: '919.714.9693',
         link: 'tel:919.714.9693',
         icon: faPhone,
     },
@@ -30,33 +30,19 @@ const contactLinks = [
 
 function Contact() {
 
-    const accordionRef = useRef(null);
-
-    const handleAccordionClick = () => {
-        if (accordionRef.current) {
-            accordionRef.current.scrollIntoView({ 
-                behavior: 'smooth',
-                block: 'start'
-            });
-        }
-    };
-
     return (
         <div id='contact'>
-            <Accordion defaultkey="0" className="contact-container" id='contact-id' flush>
-                <Accordion.Item eventKey="0" className="" ref={accordionRef}>
-                    <Accordion.Header className="header-contact text-center" onClick={handleAccordionClick}>Contact Me</Accordion.Header>
-                    <Accordion.Body className="body-contact" >
-                        {contactLinks.map((link, index) => (
-                            <li key={index}>
-                                <a href={link.link} className="links">
-                                    <FontAwesomeIcon icon={link.icon} /> {link.title}
-                                </a>
-                            </li>
-                        ))}
-                    </Accordion.Body>
-                </Accordion.Item>
-            </Accordion>
+            <div className="contact-container">
+                <section className="body-contact" >
+                    {contactLinks.map((link, index) => (
+                        <div key={index}>
+                            <a href={link.link} className="links">
+                                <FontAwesomeIcon icon={link.icon} /> {link.title}
+                            </a>
+                        </div>
+                    ))}
+                </section>
+            </div>
         </div>
     );
 }

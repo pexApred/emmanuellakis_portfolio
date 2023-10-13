@@ -1,64 +1,94 @@
 import React from 'react';
 import './Resume.css';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faBriefcase, faGraduationCap } from '@fortawesome/free-solid-svg-icons';
+
+const professionalData = [
+    {
+        date: 'Jan 2023 - Jul 2023',
+        title: 'Full-Stack Coding Bootcamp', 
+        location: 'University of North Carolina at Chapel Hill',
+        text: 'Description or additional information goes here...',
+        icon: {faGraduationCap},
+        category: { tag: 'Education' },
+        link: { url: 'https://github.com/pexApred', text: 'See Projects' },
+    },
+    {
+        date: 'Nov 2021 - Jul 2023',
+        title: 'Business Owner/Operator', 
+        location: 'Pizza Time Inc',
+        text: 'Operational and managerial responsibilities...',
+        icon: 'fas fa-briefcase',
+        category: { tag: 'Professional Experience' },
+        link: { url: 'https://pizzatimesc.com', text: 'Visit Website' },
+    },
+    {
+        date: 'Jul 2015 - Jan 2021',
+        title: 'Co-Owner/Operator',
+        location: 'Pizza Time Inc',
+        text: 'Shared operational and managerial responsibilities...',
+        icon: 'fas fa-briefcase',
+        category: { tag: 'Professional Experience' },
+        link: { url: 'https://pizzatimesc.com', text: 'Visit Website' },
+    },    
+    {
+        date: 'Jan 2017 - Jul 2019',
+        title: "Associate's Degree in Culinary Arts", 
+        location: 'Johnson & Wales University',
+        text: 'Achieved excellence in culinary arts and gained practical experience...',
+        icon: 'fas fa-graduation-cap',
+        category: { tag: 'Education' },
+        link: { url: 'https://github.com/pexApred', text: 'See Projects' },
+    },
+    {
+        date: 'Jul 2013 - Jan 2015',
+        title: 'General Manager & Chef', 
+        location: 'Pizza Time Inc',
+        text: 'Managed daily operations and led the kitchen team...',
+        icon: 'fas fa-briefcase',
+        category: { tag: 'Professional Experience'},
+        link: { url: 'https://pizzatimesc.com', text: 'Visit Website' },
+    },
+    {
+        date: 'Aug 2009 - Jun 2013',
+        title: "Bachelor's Degree in Chemistry", 
+        location: 'Wofford College',
+        text: 'Acquired a solid foundation in Chemistry and related disciplines...',
+        icon: 'fas fa-graduation-cap',
+        category: { tag: 'Education' },
+        link: { url: 'https://github.com/pexApred', text: 'See Projects' },
+    }
+];
+
+const Timeline = ({ professionalData }) => (
+    <section className="timeline py-5">
+        {professionalData.map((data, idx) => (
+            <div className='timeline-item' key={idx}>
+                <div className="timeline-icon-container">
+                    <FontAwesomeIcon icon={data.icon === 'fas fa-briefcase' ? faBriefcase : faGraduationCap} className="timeline-icon" />
+                </div>
+                <div className="timeline-content">
+                    <h5 className="fw-bold">
+                        <a href={data.link.url} target="_blank" rel="noopener noreferrer">
+                            {data.title}
+                        </a>
+                    </h5>
+                    <p className="text-muted mb-2 fw-bold">{data.date}</p>
+                    {/* <p className="text-muted">{data.text}</p> */}
+                </div>
+            </div>
+        ))}
+    </section>
+);
 
 function Resume() {
     return (
         <div id='resume' className="resume-container">
-            <div className="header">
-                <h1>Professional Resume</h1>
-            </div>
-            <div className="section">
-                <h2>Professional Summary</h2>
-                <p>
-                    Full-stack developer with a strong background in both front-end and back-end technologies,
-                    as well as a rich history of entrepreneurship in the restaurant industry. 
-                    Adept at leveraging technical skills and entrepreneurial mindset to solve complex 
-                    problems and drive business growth. Seeking a software or data engineering role 
-                    that leverages both my full-stack development skills and business insights.
-                </p>
-            </div>
-            <div className="section">
-                <h2>Technical Skills</h2>
-                <ul>
-                    <li>Languages: JavaScript, HTML5, CSS3+</li>
-                    <li>Frameworks: React, Node.js, Express.js</li>
-                    <li>Databases: SQL, MySQL, MongoDB</li>
-                    <li>API & Web Services: RESTful API Development, JSON, AJAX</li>
-                    <li>Version Control: Git, GitHub & GitLab</li>
-                    <li>Development Methodologies: Agile, OOP, MVC, MERN Stack</li>
-                    <li>Tools & Environments: Webpack, NPM, Heroku, Jest, Visual Studio Code</li>
-                </ul>
-            </div>
-            <div className="section">
-                <h2>Soft Skills</h2>
-                <ul>
-                    <li>Interpersonal: Effective Communication, Team Collaboration, Leadership</li>
-                    <li>Technical Proficiency: Problem-Solving, User-Centric Design, Continuous Learning</li>
-                    <li>Efficiency: Time Management, Adaptability, Strategic Planning</li>
-                </ul>
-            </div>
-            <div className="section">
-                <h2>Professional Education</h2>
-                <p>
-                    Certificate from Full-Stack Coding Bootcamp, University of North Carolina at Chapel Hill,
-                    Remote, Chapel Hill, NC (Jan. 2023 - Jul. 2023)
-                </p>
-                {/* ... other education details */}
-            </div>
-            <div className="section">
-                <h2>Professional Experience</h2>
-                <p>
-                    Pizza Time Inc, Business Owner, Bennettsville, SC (Mar. 2022 - Jul. 2023)
-                </p>
-                {/* ... other experience details */}
-            </div>
-            <div className="section">
-                <h2>Education</h2>
-                <p>
-                    Associate’s Degree in Culinary Arts/Chef Training, Johnson & Wales University, Charlotte, NC (Jan. 2017 - Jul. 2019)
-                    Bachelor’s Degree in Chemistry, Wofford College, Spartanburg, SC (Aug. 2009 - Jun. 2013)
-                </p>
-            </div>
+            <React.Fragment>
+                <h1 className="section-tab">Experience & Education</h1>
+                <h1 className="connecting-line"></h1>
+            </React.Fragment>  
+            <Timeline professionalData={professionalData} />
         </div>
     );
 }

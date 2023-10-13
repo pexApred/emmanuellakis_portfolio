@@ -1,33 +1,108 @@
-/* Resume.css */
 .resume-container {
-    background-color: #f0f0f0;
-    padding: 20px;
-    border-radius: 10px;
-    box-shadow: 0 0 10px rgba(0,0,0,0.1);
-    margin: 20px;
+    /* padding: 20px; */
+    /* border-radius: 10px; */
+    /* box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); */
+    /* margin: 20px; */
     animation: fadeIn 1s;
+    font-family: 'Arial', sans-serif;
 }
 
-.header {
-    text-align: center;
+.timeline {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    position: relative;
+    margin: 0 auto;
+    min-height: 100vh;
+    padding-left: 20px;
+}
+
+.timeline:before {
+    content: '';
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    width: 1px;
+    background: black;
+}
+
+.timeline-item {
+    display: flex;
+    justify-content: flex-start;
+    width: 100%;
     margin-bottom: 20px;
+    position: relative;
 }
 
-.section {
-    margin-bottom: 20px;
+.timeline-icon-container {
+    width: 30px;
+    height: 30px;
+    background: rgba(255, 255, 255);
+    border: 1px solid black;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    left: 0;
+    transform: translateX(-50%);
+    z-index: 2;
+    padding-left: 0;
 }
 
-.section h2 {
-    font-weight: bold;
-    border-bottom: 2px solid #333;
-    margin-bottom: 10px;
+.timeline-icon {
+    color: black;
 }
 
-.section p, .section ul {
-    margin-left: 20px;
+.timeline-content {
+    position: relative;
+    background: #f9f9f9;
+    border-radius: 8px;
+    border: 1px solid #e0e0e0;
+    padding: 10px;
+    max-width: 70%;
+    text-align: left;
+    /* margin-top: 10px; */
 }
 
-@keyframes fadeIn {
-    from {opacity: 0;}
-    to {opacity: 1;}
+/* .timeline-content::before {
+    content: "";
+    position: absolute;
+    width: 10px;
+    height: 10px;
+    background: black;
+    top: -15px; 
+} */
+
+.timeline-item.right .timeline-content::before {
+    left: -10px;
+}
+
+.timeline-item:not(.right) .timeline-content::before {
+    right: -10px;
+}
+
+.timeline-content h5 {
+    font-size: 14px;
+    color: black;
+}
+
+@media (min-width: 768px) {
+    .timeline-content {
+        max-width: 35%;
+        margin-top: 10px;
+    }
+
+    .timeline-item.right .timeline-content {
+        text-align: right;
+    }
+
+    .timeline-content {
+        margin-top: 5px;
+        margin-bottom: 5px;
+    }
+
+    .timeline-item.right .timeline-content {
+        text-align: right;
+    }
 }

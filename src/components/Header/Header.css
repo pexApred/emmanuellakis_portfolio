@@ -14,10 +14,10 @@
     flex-direction: row;
     justify-content: space-around;
     /* align-items: end; */
-    width: 100%; /* You can adjust this to space out your icons as needed */
+    width: 100%; 
 }
 
 .icons i {
-    font-size: 2em; /* Adjust size as needed */
-    color: #333; /* Adjust color as needed */
+    font-size: 2em;
+    color: #333; 
 }
