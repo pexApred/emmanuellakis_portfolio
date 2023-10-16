@@ -1,9 +1,8 @@
-import React, { useRef } from "react";
+import React from "react";
 import './Contact.css';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faPhone, faPaperPlane } from '@fortawesome/free-solid-svg-icons';
-import { faGithub, faLinkedin, faSpotify } from '@fortawesome/free-brands-svg-icons';
-import { Accordion } from 'react-bootstrap';
+import { faGithub, faLinkedin } from '@fortawesome/free-brands-svg-icons';
 
 const contactLinks = [
     {

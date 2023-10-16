@@ -1,9 +1,6 @@
 import React, { useEffect } from "react";
 import './Intro.css';
 import Typed from "typed.js";
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faShirt, faBook, faRoute } from '@fortawesome/free-solid-svg-icons';
-import { Card, Button, Row, Container, Col, Accordion } from 'react-bootstrap';
 
 function Intro() {
 

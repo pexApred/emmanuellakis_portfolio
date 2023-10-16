@@ -1,23 +1,17 @@
-.header {
+/* .header {
     display: block;
-    /* grid-template-columns: repeat(auto-fit, minmax(100px, 1fr)); */
     position: static;
     margin-top: 4em;
-    /* width: 100vw;
-    height: 100vh; */
-    /* padding: 20px; */
-    /* overflow:auto; */
 }
 
 .icons {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
-    /* align-items: end; */
     width: 100%; 
 }
 
 .icons i {
     font-size: 2em;
     color: #333; 
-}
+} */

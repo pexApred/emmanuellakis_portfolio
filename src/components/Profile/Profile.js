@@ -1,5 +1,4 @@
 import React from 'react';
-// import { Navbar, Nav, Container } from 'react-bootstrap';
 import './Profile.css';
 
 const user = {

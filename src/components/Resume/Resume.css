@@ -1,8 +1,4 @@
 .resume-container {
-    /* padding: 20px; */
-    /* border-radius: 10px; */
-    /* box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); */
-    /* margin: 20px; */
     animation: fadeIn 1s;
     font-family: 'Arial', sans-serif;
 }
@@ -62,17 +58,7 @@
     padding: 10px;
     max-width: 70%;
     text-align: left;
-    /* margin-top: 10px; */
 }
-
-/* .timeline-content::before {
-    content: "";
-    position: absolute;
-    width: 10px;
-    height: 10px;
-    background: black;
-    top: -15px; 
-} */
 
 .timeline-item.right .timeline-content::before {
     left: -10px;

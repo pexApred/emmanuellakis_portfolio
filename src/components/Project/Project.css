@@ -1,6 +1,5 @@
 .projects-container {
     background-color: whitesmoke;
-    /* padding: 20px; */
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -13,9 +12,6 @@
     text-align: center;
     width: 100%;
     border-bottom: 2px solid #000;
-    /* height: 100%; */
-    /* display: flex; */
-    /* align-items: center; */
 }
 
 .connecting-line {

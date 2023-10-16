@@ -26,13 +26,14 @@
 
 .links:hover {
     color: white;
-    /* font-size: 21px; */
 }
 
 @media (min-width: 992px) {
+
     .contact-container {
         padding-top: 4%;
     }
+    
     .body-contact {
         display: flex;
         flex-direction: row;

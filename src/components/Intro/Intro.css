@@ -61,9 +61,11 @@
 }
 
 @media (min-width: 768px) {
+
     .hero-section h1 {
         font-size: 60px;
     }
+
     .typed-container {
         font-size: 30px;
 
@@ -71,12 +73,14 @@
 }
 
 @media (min-width: 992px) {
+
     .hero-section h1 {
         font-size: 80px;
         margin-top: 18%;
         margin-left: 18%;
         margin-bottom: 1.5%;
     }
+    
     .typed-container {
         font-size: 40px;
         margin-left: 18%;
