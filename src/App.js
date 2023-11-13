@@ -47,7 +47,7 @@ function App() {
         </div>
         <div className={`App1-container ${darkMode ? 'dark' : ''}`}>
           <div className="App1">
-            <button className={`toggle-button ${navOpen ? 'toggled' : ''}`} onClick={toggleNav}>
+            <button className={`toggle-button ${navOpen ? 'toggled' : ''}`} alt='mobile-toggle' onClick={toggleNav}>
               <div className="bar1"></div>
               <div className="bar2"></div>
               <div className="bar3"></div>
@@ -55,7 +55,7 @@ function App() {
             <MainPage />
           </div>
           {showScrollBtn && (
-            <button className='scrollToTop' onClick={scrollToTop}>
+            <button className='scrollToTop' alt='scroll-toggle' onClick={scrollToTop}>
               <FontAwesomeIcon icon={faArrowUp}/>
             </button>
           )}

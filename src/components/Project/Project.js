@@ -65,6 +65,7 @@ function ProjectCard({ project }) {
                         onClick={() => setOpen(!open)}
                         aria-controls="example-collapse-text"
                         aria-expanded={open}
+                        alt='View Details Button'
                     >
                         View Details
                     </Button>

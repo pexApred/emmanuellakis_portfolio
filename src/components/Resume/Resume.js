@@ -68,11 +68,11 @@ const Timeline = ({ professionalData }) => (
                     <FontAwesomeIcon icon={data.icon === 'fas fa-briefcase' ? faBriefcase : faGraduationCap} className="timeline-icon" />
                 </div>
                 <div className="timeline-content">
-                    <h5>
+                    <h1>
                         <a href={data.link.url} target="_blank" rel="noopener noreferrer" className='resume-location'>
                             {data.location}
                         </a>
-                    </h5>
+                    </h1>
                     <p className="text-muted mb-2 fw-bold"><span>{data.date}</span></p>
                     {/* <p className="text-muted">{data.text}</p> */}
                     <p className='resume-title'>
