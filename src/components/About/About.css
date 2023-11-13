@@ -1,0 +1,49 @@
+.about-container{
+    display:flex;
+    flex-direction: column;
+}
+
+.bio-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* text-align: left; */
+    /* margin-top: 20px; */
+}
+
+.job-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.about-pic {
+    margin: 0 2em;
+    /* padding: 1em; */
+    /* align-self: center; */
+}
+
+.bio-item {
+    /* width: 80%; */
+    padding: 1em;
+}
+
+.bio-item h2 {
+    margin-bottom: 10px;
+}
+
+@media (min-width: 1200px) {
+    .about-container{
+        padding-left: 300px;
+    }
+    .bio-container {
+        flex-direction: row;
+        /* margin-top: 20px; */
+    }
+  }
+  
+  @media (max-width: 1199px) {
+
+  }

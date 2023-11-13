@@ -1,6 +1,7 @@
 .resume-container {
-    animation: fadeIn 1s;
     font-family: 'Arial', sans-serif;
+    display: flex;
+    flex-direction: column;
 }
 
 .timeline {
@@ -52,12 +53,32 @@
 
 .timeline-content {
     position: relative;
-    background: #f9f9f9;
+    /* background: #f9f9f9; */
     border-radius: 8px;
-    border: 1px solid #e0e0e0;
-    padding: 10px;
+    /* border: 1px solid #e0e0e0; */
+    padding: 5px;
     max-width: 70%;
     text-align: left;
+}
+
+.resume-location {
+    font-size: 20px;
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+
+.resume-title {
+    font-size: 16px;
+    text-decoration: none;
+    color: black;
+    font-style: italic;
+}
+
+.fw-bold span {
+    background-color: rgb(225, 224, 251);
+    padding: 4px 8px;
+    
 }
 
 .timeline-item.right .timeline-content::before {
@@ -73,7 +94,11 @@
     color: black;
 }
 
-@media (min-width: 768px) {
+@media (min-width: 1200px) {
+    .resume-container {
+        padding-left: 300px;
+    }
+
     .timeline-content {
         max-width: 35%;
         margin-top: 10px;

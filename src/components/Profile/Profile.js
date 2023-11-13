@@ -1,10 +1,10 @@
 import React from 'react';
 import './Profile.css';
 
-const user = {
+export const user = {
     name: 'Emmanuel Lakis',
     email: 'manolilakis@gmail.com',
-    imageUrl: '../../../58F0A935-36A7-43BB-AC5F-E33E44C82A4E_1_105_c.jpeg',
+    imageUrl: 'BBF5F4A4-8682-48C5-BE81-AEBE4B161ACE_1_201_a.jpeg',
     imageSize: 100,
 };
 

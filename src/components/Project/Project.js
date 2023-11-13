@@ -4,36 +4,10 @@ import './Project.css';
 
 const projects = [
     {
-        title: 'Pizza Time Inc: Created with Wix UI',
-        description: '',
-        image: '',
-        link: ''
-    },
-    {
         title: 'Wonderful World of dR. Slide: Riddle Book',
         description: '',
-        image: '',
+        image: '../wwofdrslide-screenshot.png',
         link: ''
-    },
-    {
-        title: 'Literacy Lane: Interactive Front-End',
-        description: `This project underscores my proficiency in using CSS frameworks,
-            integrating multiple server-side APIs, implementing client-side storage,
-            and delivering an interactive and responsive UI. It exhibits my commitment
-            to clean coding practices, clear documentation, and effective team
-            collaboration, culminating in a successful deployment on GitHub Pages.`,
-        image: '../Screenshot 2023-05-09 at 9.04.11 PM.png',
-        link: 'https://pexapred.github.io/P1-G7-Literacy-Lane/index.html'
-    },
-    {
-        title: 'codeThread: Interactive Full-Stack',
-        description: `This project underscores my proficiency in using CSS frameworks,
-            integrating multiple server-side APIs, implementing client-side storage,
-            and delivering an interactive and responsive UI. It exhibits my commitment
-            to clean coding practices, clear documentation, and effective team
-            collaboration, culminating in a successful deployment on GitHub Pages.`,
-        image: '../Screenshot 2023-05-09 at 8.44.44 PM.png',
-        link: 'https://pacific-inlet-31648.herokuapp.com/'
     },
     {
         title: 'JourneyVerse: Interactive MERN Stack',
@@ -44,8 +18,34 @@ const projects = [
             sensitive information on the server. The project emphasizes collaborative
             skills, problem-solving, and the ability to work with real-world data to
             solve user-focused problems.`,
-        image: '../Screenshot 2023-07-15 at 1.59.46 PM.png',
+        image: '../JourneyVerse-screenshot.png',
         link: 'https://journeyverse-2c53482d7e17.herokuapp.com/'
+    },
+    {
+        title: 'codeThread: Interactive Full-Stack',
+        description: `This project underscores my proficiency in using CSS frameworks,
+            integrating multiple server-side APIs, implementing client-side storage,
+            and delivering an interactive and responsive UI. It exhibits my commitment
+            to clean coding practices, clear documentation, and effective team
+            collaboration, culminating in a successful deployment on GitHub Pages.`,
+        image: '../codeThread.png',
+        link: 'https://pacific-inlet-31648.herokuapp.com/'
+    },
+    {
+        title: 'Literacy Lane: Interactive Front-End',
+        description: `This project underscores my proficiency in using CSS frameworks,
+            integrating multiple server-side APIs, implementing client-side storage,
+            and delivering an interactive and responsive UI. It exhibits my commitment
+            to clean coding practices, clear documentation, and effective team
+            collaboration, culminating in a successful deployment on GitHub Pages.`,
+        image: '../LiteracyLane.png',
+        link: 'https://pexapred.github.io/P1-G7-Literacy-Lane/index.html'
+    },
+    {
+        title: 'Pizza Time Inc: Created with Wix UI',
+        description: '',
+        image: '../pizzaTime.png',
+        link: 'https://www.pizzatimesc.com/'
     }
 ]
 
@@ -98,10 +98,10 @@ function Project() {
     return (
         <div id='projects' className="projects-container">
             <React.Fragment>
-                <h1 className="section-tab">Projects</h1>
+                <h1 className="section-tab">My Projects</h1>
                 <h1 className="connecting-line"></h1>
             </React.Fragment>
-            <Row>
+            <Row className="project-item">
                 {projects.map((project) => (
                     <ProjectCard key={project.title} project={project} handleShow={handleShow} />
                 ))}

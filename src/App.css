@@ -83,19 +83,19 @@
   background-color: white;
 }
 
-@media (min-width: 992px) {
+@media (min-width: 1200px) {
   .App-container {
       flex-direction: row;
   }
 
   .App {
-      width: 250px;
+      width: 300px;
       /* border: solid 2px black; */
       transform: translateX(0);
   }
 
   .App1-container {
-      padding-left: 250px;
+      /* padding-left: 250px; */
   }
 
   .toggle-button {
@@ -103,7 +103,7 @@
   }
 }
 
-@media (max-width: 991px) {
+@media (max-width: 1199px) {
   .App {
       transform: translateX(-250px); 
   }

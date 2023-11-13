@@ -1,7 +1,7 @@
 import React from 'react';
 import './NavBar.css';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faHouse, faPersonWalking, faFile, faIdCard, faPaperPlane, faPhone } from '@fortawesome/free-solid-svg-icons';
+import { faHouse, faPersonWalking, faFile, faTimeline, faIdCard, faPaperPlane, faPhone } from '@fortawesome/free-solid-svg-icons';
 import { faFolderOpen } from '@fortawesome/free-regular-svg-icons';
 
 function NavBar() {
@@ -18,17 +18,23 @@ function NavBar() {
                     <li>
                         <a href='#about'>
                             <FontAwesomeIcon className='icons' icon={faPersonWalking} />
-                            About Me
+                            Who I Am
                         </a>
                     </li>
                     <li>
                         <a href='#projects'>
                             <FontAwesomeIcon className='icons' icon={faFolderOpen} />
-                            Projects
+                            My Projects
                         </a>
                     </li>
                     <li>
-                        <a href='#resume'>
+                        <a href='#timeline'>
+                            <FontAwesomeIcon className='icons' icon={faTimeline} />
+                            Professional Timeline
+                        </a>
+                    </li>
+                    <li>
+                        <a href='https://drive.google.com/file/d/1M8WBLpdw3_q9A-n3hdbm5KGgzQJ9q3i9/view?usp=sharing'>
                             <FontAwesomeIcon className='icons' icon={faFile} />
                             Resume
                         </a>

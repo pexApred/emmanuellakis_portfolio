@@ -5,11 +5,17 @@
     margin: 0;
     height: 100vh;
     width: 100vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 .hero-section {
-    display: flex;
+    /* position: relative; */
+    /* display: flex;
     flex-direction: column;
+    justify-content: center; */
     color: white;
     font-size: 24px;
 }
@@ -17,17 +23,17 @@
 .hero-section h1 {
     font-size: 40px;
     font-weight: bold;
-    text-align: left;
-    margin-top: 75%;
+    /* text-align: left; */
+    /* margin-top: 75%;
     margin-left: 10%;
-    margin-bottom: 5%;
+    margin-bottom: 5%; */
 }
 
 .typed-container {
     font-size: 18px;
-    text-align: left;
-    margin-left: 10%;
-    width: 90%;
+    /* text-align: left; */
+    /* margin-left: 10%; */
+    /* width: 90%; */
 }
 
 .typed, .typedSkills {
@@ -38,26 +44,6 @@
 
 .typedSkills {
     text-decoration: underline;    
-}
-
-.bio {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    text-align: left;
-    margin-top: 20px;
-    color: white;
-}
-
-.bio-item {
-    width: 80%;
-    margin-bottom: 20px;
-    padding: 10px;
-}
-
-.bio-item h2 {
-    margin-bottom: 10px;
 }
 
 @media (min-width: 768px) {
@@ -76,13 +62,13 @@
 
     .hero-section h1 {
         font-size: 80px;
-        margin-top: 18%;
+        /* margin-top: 18%;
         margin-left: 18%;
-        margin-bottom: 1.5%;
+        margin-bottom: 1.5%; */
     }
     
     .typed-container {
-        font-size: 40px;
-        margin-left: 18%;
+        font-size: 30px;
+        /* margin-left: 18%; */
     }
 }
