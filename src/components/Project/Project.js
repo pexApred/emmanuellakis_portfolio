@@ -23,11 +23,16 @@ const projects = [
     },
     {
         title: 'codeThread: Interactive Full-Stack',
-        description: `This project underscores my proficiency in using CSS frameworks,
-            integrating multiple server-side APIs, implementing client-side storage,
-            and delivering an interactive and responsive UI. It exhibits my commitment
-            to clean coding practices, clear documentation, and effective team
-            collaboration, culminating in a successful deployment on GitHub Pages.`,
+        description: `This platform allows users to purchase bespoke cohort t-shirts, 
+        offering customization options like cohort selection, shirt size, and color, 
+        thereby personalizing each garment. Key features of this project include a RESTful 
+        API built with Node.js and Express.js, a user-friendly interface rendered via 
+        Handlebars.js, and a robust MySQL database managed through Sequelize ORM. We 
+        ensured responsive design for optimal user experience across devices, implemented 
+        authentication for security, and utilized environment variables to protect 
+        sensitive data. This project not only showcases technical prowess in creating 
+        a full-stack application but also embodies our dedication to creating a product 
+        that celebrates academic achievements and cohort solidarity.`,
         image: '../codeThread.png',
         link: 'https://pacific-inlet-31648.herokuapp.com/'
     },
