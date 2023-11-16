@@ -38,7 +38,7 @@ const projects = [
             and delivering an interactive and responsive UI. It exhibits my commitment
             to clean coding practices, clear documentation, and effective team
             collaboration, culminating in a successful deployment on GitHub Pages.`,
-        image: '../Literacy Lane Update Image.png',
+        image: '../Literacy-Lane-Update.png',
         link: 'https://pexapred.github.io/P1-G7-Literacy-Lane/index.html'
     },
     {
