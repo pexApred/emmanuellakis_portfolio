@@ -4,7 +4,7 @@ import './Project.css';
 
 const projects = [
     {
-        title: 'Wonderful World of dR. Slide: Riddle Book',
+        title: 'The Wonderful World of dR. Slide: Riddle Book',
         description: `Welcome to The Wonderful World of Dr. Slide! 
         To get started, please create a username and password in order to access the site. 
         From there, you will be able to solve the riddles and see how well you can do overall. Need help? You can ask for a hint and then try again. 
