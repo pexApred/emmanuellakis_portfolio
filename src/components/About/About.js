@@ -28,9 +28,9 @@ function About() {
                             </p>
                         </div>
                         <div className="bio-item">
-                            <h2>Restauranteur & Chef</h2>
+                            <h2>Restaurateur & Chef</h2>
                             <p>
-                                Growing up in the heart of a family-run restaurant, I developed a deep appreciation and respect for the culinary arts and the business of hospitality. Watching my parents build a thriving business from scratch, I learned the value of hard work, exceptional hospitality, and, of course, great food. Over my 10+ years in the industry, I've worn many hats — from managing kitchen operations to overseeing the entire nt. Taking over as Restauranteur, I've been at the helm of both the business and culinary aspects. My journey includes creatively integrating tech solutions into our operations, which notably boosted our revenue by 50%, and leading our team through challenging times, like pivoting during the COVID-19 pandemic. I'm proud to have maintained our tradition of quality while steering our business through growth and innovation.
+                                Growing up in the heart of a family-run restaurant, I developed a deep appreciation and respect for the culinary arts and the business of hospitality. Watching my parents build a thriving business from scratch, I learned the value of hard work, exceptional hospitality, and, of course, great food. Over my 10+ years in the industry, I've worn many hats — from managing kitchen operations to overseeing the entire restaurant. Taking over as Restaurateur, I've been at the helm of both the business and culinary aspects. My journey includes creatively integrating tech solutions into our operations, which notably boosted our revenue by 50%, and leading our team through challenging times, like pivoting during the COVID-19 pandemic. I'm proud to have maintained our tradition of quality while steering our business through growth and innovation.
                             </p>
                         </div>
                     </div>

@@ -11,7 +11,7 @@ const projects = [
         Alas, some are quite difficult so if the answer still evades you then click "I Give Up" to see the solution. 
         It is highly encouraged that you try for a while before giving up as some require quite a lot of thought before the answer may become clearer. On this site, you will be also able to see your own personal statistics with regards to your success rate on the riddles. 
         Are you amongst the best of the best? Your username will proudly be displayed on the Leader Board for all to see. 
-        Regardless of your success, please enjoy the process and confort in knowing you are exercising your brain.`,
+        Regardless of your success, please enjoy the process and comfort in knowing you are exercising your brain.`,
         image: '../wwofdrslide-screenshot.png',
         link: 'https://github.com/pexApred/WWofDrSlide.git'
     },
