@@ -4,7 +4,7 @@ import './Project.css';
 
 const projects = [
     {
-        title: 'The Wonderful World of dR. Slide: Riddle Book',
+        title: 'The Wonderful World of Dr. Slide: Riddle Book',
         description: `Welcome to The Wonderful World of Dr. Slide! 
         To get started, please create a username and password in order to access the site. 
         From there, you will be able to solve the riddles and see how well you can do overall. Need help? You can ask for a hint and then try again. 
@@ -13,7 +13,7 @@ const projects = [
         Are you amongst the best of the best? Your username will proudly be displayed on the Leader Board for all to see. 
         Regardless of your success, please enjoy the process and comfort in knowing you are exercising your brain.`,
         image: '../wwofdrslide-screenshot.png',
-        link: 'https://github.com/pexApred/WWofDrSlide.git'
+        link: 'https://www.thewonderfulworldofdrslide.com/'
     },
     {
         title: 'JourneyVerse: Interactive MERN Stack',
