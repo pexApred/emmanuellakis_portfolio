@@ -34,7 +34,7 @@ function NavBar() {
                         </a>
                     </li>
                     <li>
-                        <a href='https://drive.google.com/file/d/1M8WBLpdw3_q9A-n3hdbm5KGgzQJ9q3i9/view?usp=sharing'>
+                        <a href='https://drive.google.com/file/d/1Ob6RjRp7h7PzW_fzHrjQiA-b6SmqJwll/view?usp=sharing'>
                             <FontAwesomeIcon className='icons' icon={faFile} />
                             Resume
                         </a>
