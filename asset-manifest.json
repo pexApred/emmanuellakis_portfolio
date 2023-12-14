@@ -1,16 +1,16 @@
 {
   "files": {
     "main.css": "/static/css/main.7cfd06a2.css",
-    "main.js": "/static/js/main.1bdbe7a0.js",
+    "main.js": "/static/js/main.5801faac.js",
     "static/js/496.8c1efe8d.chunk.js": "/static/js/496.8c1efe8d.chunk.js",
     "static/media/colorful-gradient-digital-art-abstract-tn-3840x2400.jpg": "/static/media/colorful-gradient-digital-art-abstract-tn-3840x2400.8f20c1db5f74c327a4a2.jpg",
     "index.html": "/index.html",
     "main.7cfd06a2.css.map": "/static/css/main.7cfd06a2.css.map",
-    "main.1bdbe7a0.js.map": "/static/js/main.1bdbe7a0.js.map",
+    "main.5801faac.js.map": "/static/js/main.5801faac.js.map",
     "496.8c1efe8d.chunk.js.map": "/static/js/496.8c1efe8d.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.7cfd06a2.css",
-    "static/js/main.1bdbe7a0.js"
+    "static/js/main.5801faac.js"
   ]
 }
